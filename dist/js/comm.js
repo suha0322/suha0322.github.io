@@ -4,7 +4,7 @@ $(document).ready(function () {
         responsiveWidth: 1024,
         navigation: true,
         showActiveTooltip: true,
-        anchors: ["firstPage", "secondPage", "thirdPage", "fourthPage", "fifthPage", "sixthPage","footerview"],
+        anchors: ["firstPage", "secondPage", "thirdPage", "fourthPage", "fifthPage", "sixthPage", "sevenPage", "footerview"],
         afterLoad: function (anchorLink, index) {
             if (index == 1) {
                 $(".home-wrap").css({

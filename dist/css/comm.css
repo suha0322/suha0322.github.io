@@ -721,6 +721,9 @@ body {
 .section.active .inner .slide-cover .ikea {
   animation: ImgAni 8s ease-out infinite;
 }
+.section.active .inner .slide-cover .pocari {
+  animation: ImgAni 10s ease-out infinite;
+}
 @keyframes ImgAni {
   0%, 100% {
     background-position: top;
@@ -775,148 +778,6 @@ body {
   transition: opacity 0.3s ease 0.5s;
 }
 
-/* .section-3 {
-  position: relative;
-  background: rgb(29, 29, 29);
-  transition: opacity 0.3s ease 0s;
-}
-.section-3 .techview {
-  overflow-y: auto;
-  width: 100%;
-  max-height: 100vh;
-  scrollbar-width: none;
-}
-.section-3 .techview-container {
-  opacity: 0;
-  transition: opacity 0.3s ease 0s;
-  padding-top: 100px;
-  padding-bottom: 72px;
-  position: relative;
-  z-index: 1;
-  width: 1200px;
-  margin: 0px auto;
-}
-.section-3 .techview-img-wrap {
-  width: 100%;
-  margin-top: 28px;
-  position: relative;
-  filter: contrast(0.5) grayscale(1) brightness(0.55);
-  overflow: hidden;
-}
-.section-3 .techview-img-container {
-  width: 100%;
-  position: relative;
-}
-.section-3 .deskimg {
-  width: 100%;
-  border-radius: 5px;
-}
-.section-3 .techview-text-wrap {
-  transform: translateY(-50%);
-}
-.section-3 .techview-title {
-  display: flex;
-  font-size: 48px;
-  margin: 0;
-  transition: font-size 0.3s ease 0s;
-}
-.section-3 .techview-word {
-  position: relative;
-  animation: 3s ease 0s infinite normal none running titleWordAni;
-}
-@keyframes titleWordAni {
-  0% {
-    top: 0;
-  }
-  20% {
-    top: -0.4rem;
-  }
-  40% {
-    top: 0;
-  }
-  60% {
-    top: 0;
-  }
-  80% {
-    top: 0;
-  }
-  100% {
-    top: 0;
-  }
-}
-.section-3 .word1 {
-  animation-delay: 0.3s;
-}
-.section-3 .word2 {
-  animation-delay: 0.6s;
-}
-.section-3 .word3 {
-  animation-delay: 0.9s;
-}
-.section-3 .word4 {
-  animation-delay: 1.2s;
-}
-.section-3 .word5 {
-  width: 10px;
-  animation-delay: 1.5s;
-}
-.section-3 .word6 {
-  animation-delay: 1.8s;
-}
-.section-3 .word7 {
-  animation-delay: 2.1s;
-}
-.section-3 .word8 {
-  animation-delay: 2.4s;
-}
-.section-3 .word9 {
-  animation-delay: 2.7s;
-}
-.section-3 .techview-list-wrap {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  gap: 80px;
-}
-.section-3 .techview-list-category {
-  flex-basis: 50%;
-}
-.section-3 .techview-list-category-name {
-  width: 300px;
-  color: rgb(221, 221, 221);
-  font-size: 28px;
-  font-weight: 600;
-  margin: 0;
-  transition: font-size 0.3s ease 0s;
-}
-.section-3 .techview-list-contents {
-  margin-top: 12px;
-}
-.section-3 .techview-techlist {
-  padding-inline-start: 0;
-}
-.section-3 .techview-list-item {
-  position: relative;
-  font-family: "pretendard";
-  font-size: 18px;
-  line-height: 1.8;
-  font-weight: 400;
-  color: rgb(204, 204, 204);
-  transition: font-size 0.3s ease 0s;
-  margin-left: 24px;
-  margin-bottom: 16px;
-}
-.section-3 .techview-list-item::before {
-  content: "";
-  display: block;
-  height: 3px;
-  width: 3px;
-  position: absolute;
-  top: 15px;
-  left: -15px;
-  background-color: #fff;
-} */
 .section-2 .techview-tablist {
   display: flex;
   flex-wrap: wrap;
@@ -1051,6 +912,9 @@ body {
 }
 .inner .slide-cover .ikea {
   background-image: url(../images/slide4-1.png);
+}
+.inner .slide-cover .pocari {
+  background-image: url(../images/slide5.png);
 }
 .inner .slide-cover2 {
   position: relative;
@@ -1322,11 +1186,11 @@ body {
   }
 }
 
-.section-7 {
+.section-8 {
   background: rgba(0, 0, 0, 0.24);
 }
 
-.section-7 .footerview-desc {
+.section-8 .footerview-desc {
   height: 100vh;
   color: white;
   display: flex;
@@ -1336,7 +1200,7 @@ body {
   position: relative;
 }
 
-.section-7 .ft-tit {
+.section-8 .ft-tit {
   font-family: 'DM Serif Display', sans-serif;
   display: flex;
   flex-direction: column;
@@ -1351,11 +1215,11 @@ body {
   /* border-radius: 30px; */
 }
 
-.section-7 .footerview-desc {
+.section-8 .footerview-desc {
   font-size: 14px;
 }
 
-.section-7 .footerview-copy {
+.section-8 .footerview-copy {
   font-size: 12px;
 }
 
